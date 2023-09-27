@@ -1,0 +1,19 @@
+<br />
+<br />
+{{ title }}
+<hr />
+
+{{ dane }}
+<hr />
+
+<h2>pipe</h2>
+{{ dane | json }}
+<hr />
+
+<h2>ngfor</h2>
+<p *ngFor="let item of dane">{{ item.cytat }}</p>
+
+<hr />
+
+<p>{{ dane[0].autor }}</p>
+<hr />
